@@ -1,0 +1,70 @@
+NAME : ANSHUMAN KUSHWAHA
+
+TESTING CONCEPTS - ANSWERS
+
+1. Age should be between 18 and 99 (inclusive). Using Boundary Value Analysis (BVA):
+Test Cases:
+17 (just below minimum) - Invalid
+18 (minimum boundary) - Valid
+19 (just above minimum) - Valid
+98 (just below maximum) - Valid
+99 (maximum boundary) - Valid
+100 (just above maximum) - Invalid
+
+2. Examination marks: pass marks = 60, maximum marks = 100.
+Valid Equivalence Classes (student clears the exam):
+60-100 : Valid class (Pass)
+Invalid classes:
+< 60 : Fail
+> 100 : Invalid input
+
+3. Driver salary structure:
+Up to 25 years -> Rs.15000
+Age 40 and above -> 10% more
+Age 65 and above -> 5% more
+
+Equivalence Classes:
+Class 1: Age <= 25
+Class 2: Age 26-39
+Class 3: Age 40-64
+Class 4: Age >= 65
+
+Boundary Values (Normal BVA):
+25, 26
+39, 40
+64, 65
+Representative test values: 25, 26, 39, 40, 64, 65
+
+4. Winter Sale eligibility:
+Eligible if:
+Age < 8
+Age > 35 and < 45
+Age > 60
+
+Equivalence Classes:
+EC1: Age < 8 (Eligible)
+EC2: Age 8-35 (Not Eligible)
+EC3: Age >35 and <45 (Eligible)
+EC4: Age 45-60 (Not Eligible)
+EC5: Age >60 (Eligible)
+
+Total Equivalence Classes = 5
+
+5. Printer cartridges:
+Minimum order quantity = 5
+20% discount for orders >= 100
+
+Equivalence Classes:
+EC1: <5 (Invalid)
+EC2: 5-99 (Valid, no discount)
+EC3: >=100 (Valid, 20% discount)
+
+Boundary Test Cases:
+4 (Invalid)
+5 (Valid minimum order)
+6 (Valid)
+99 (Valid, no discount)
+100 (Valid, discount applied)
+101 (Valid, discount applied)
+
+
