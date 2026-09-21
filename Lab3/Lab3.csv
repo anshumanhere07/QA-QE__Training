@@ -1,0 +1,300 @@
+,Test Case ID,Test Scenario,Precondition,Test Condition,Test Case Steps,Test Data,Expected Result,Actual Result Iteration 1,Status Iteration 1,Actual Result Iteration 2,Status Iteration 2,Comments,Reference
+,TC001,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 17",Invalid Age,,,,,,
+,TC002,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 18",Proceed,,,,,,
+,TC003,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 19",Proceed,,,,,,
+,TC004,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 20",Proceed,,,,,,
+,TC005,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 50",Proceed,,,,,,
+,TC006,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 97",Proceed,,,,,,
+,TC007,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 98",Proceed,,,,,,
+,TC008,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 99",Proceed,,,,,,
+,TC009,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 100",Invalid Age,,,,,,
+,TC010,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: 0",Invalid Age,,,,,,
+,TC011,Person Age,Registration page should be available,Verify Person Age,"1. Open The Browser
+2. Navigate to the URL
+3. Click on Register
+4. Enter the Age
+5. Click on Submit button","Browser: Chrome, Age: -1",Invalid Age,,,,,,
+,TC012,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: -1,Invalid Marks,,,,,,
+,TC013,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 0,Fail,,,,,,
+,TC014,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 1,Fail,,,,,,
+,TC015,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 58,Fail,,,,,,
+,TC016,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 59,Fail,,,,,,
+,TC017,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 60,Pass,,,,,,
+,TC018,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 61,Pass,,,,,,
+,TC019,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 75,Pass,,,,,,
+,TC020,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 99,Pass,,,,,,
+,TC021,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 100,Pass,,,,,,
+,TC022,Exam Marks,Exam portal available,Verify Exam result,"1. Open Browser
+2. Open Examination Portal
+3. Enter Marks
+4. Click Calculate Result",Marks: 101,Invalid Marks,,,,,,
+,TC023,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 24,Salary should be 15000,,,,,,
+,TC024,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 25,Salary should be 15000,,,,,,
+,TC025,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 26,Salary should be 15000,,,,,,
+,TC026,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 30,Salary should be 15000,,,,,,
+,TC027,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 39,Salary should be 15000,,,,,,
+,TC028,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 40,Salary should be 16500,,,,,,
+,TC029,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 41,Salary should be 16500,,,,,,
+,TC030,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 50,Salary should be 16500,,,,,,
+,TC031,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 64,Salary should be 16500,,,,,,
+,TC032,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 65,Salary should be 15750,,,,,,
+,TC033,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 66,Salary should be 15750,,,,,,
+,TC034,Driver Age,Salary rules configured,Verify salary slab,"1. Open Browser
+2. Open Driver Salary Page
+3. Enter Driver Age
+4. Click Calculate Salary",Age: 80,Salary should be 15750,,,,,,
+,TC035,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 7,Discount,,,,,,
+,TC036,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 8,No Discount,,,,,,
+,TC037,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 9,No Discount,,,,,,
+,TC038,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 34,No Discount,,,,,,
+,TC039,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 35,No Discount,,,,,,
+,TC040,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 36,Discount,,,,,,
+,TC041,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 40,Discount,,,,,,
+,TC042,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 44,Discount,,,,,,
+,TC043,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 45,No Discount,,,,,,
+,TC044,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 46,No Discount,,,,,,
+,TC045,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 60,No Discount,,,,,,
+,TC046,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 61,Discount,,,,,,
+,TC047,Winter Sale,Sale is active,Verify discount eligibility,"1. Open Browser
+2. Open Winter Sale Page
+3. Enter Age
+4. Click Check Eligibility",Age: 70,Discount,,,,,,
+,TC048,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 0,Reject,,,,,,
+,TC049,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 1,Reject,,,,,,
+,TC050,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 4,Reject,,,,,,
+,TC051,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 5,Accept,,,,,,
+,TC052,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 6,Accept,,,,,,
+,TC053,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 50,Accept No Discount,,,,,,
+,TC054,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 98,Accept No Discount,,,,,,
+,TC055,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 99,Accept No Discount,,,,,,
+,TC056,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 100,20% Discount,,,,,,
+,TC057,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 101,20% Discount,,,,,,
+,TC058,Printer Cartridge Quantity,Order page available,Verify order quantity,"1. Open Browser
+2. Open Order Page
+3. Enter Cartridge Qty
+4. Click Place Order",Quantity: 200,20% Discount,,,,,,
+,TC059,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 0,0% Bonus,,,,,,
+,TC060,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 1,0% Bonus,,,,,,
+,TC061,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 1.9,0% Bonus,,,,,,
+,TC062,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 2,0% Bonus,,,,,,
+,TC063,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 2.1,10% Bonus,,,,,,
+,TC064,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 3,10% Bonus,,,,,,
+,TC065,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 4.9,10% Bonus,,,,,,
+,TC066,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 5,25% Bonus,,,,,,
+,TC067,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 5.1,25% Bonus,,,,,,
+,TC068,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 7,25% Bonus,,,,,,
+,TC069,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 9.9,25% Bonus,,,,,,
+,TC070,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 10,35% Bonus,,,,,,
+,TC071,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 10.1,35% Bonus,,,,,,
+,TC072,Employee Bonus,Bonus module available,Verify bonus calculation,"1. Open Browser
+2. Open Bonus Page
+3. Enter Years of Service
+4. Click Calculate Bonus",Years: 15,35% Bonus,,,,,,
