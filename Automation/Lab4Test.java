@@ -42,16 +42,32 @@ public class Lab4Test {
     driver.manage().window().setSize(new Dimension(945, 1060));
     driver.findElement(By.linkText("Desktops")).click();
     driver.findElement(By.linkText("Mac (1)")).click();
+    try {
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     driver.findElement(By.id("input-sort")).click();
     {
       WebElement dropdown = driver.findElement(By.id("input-sort"));
       dropdown.findElement(By.xpath("//option[. = 'Name (A - Z)']")).click();
     }
+    try {
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     driver.findElement(By.cssSelector(".button-group > button:nth-child(1)")).click();
     driver.findElement(By.name("search")).click();
     driver.findElement(By.name("search")).sendKeys("mobile");
     driver.findElement(By.cssSelector(".input-group-btn > .btn")).click();
-    driver.findElement(By.cssSelector(".row:nth-child(3) > .col-sm-4")).click();
+    try {
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
+    driver.findElement(By.id("input-search")).click();
+    driver.findElement(By.id("input-search")).sendKeys(" ");
     driver.findElement(By.id("description")).click();
     driver.findElement(By.id("button-search")).click();
   }

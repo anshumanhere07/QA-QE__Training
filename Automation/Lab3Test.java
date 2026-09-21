@@ -42,10 +42,20 @@ public class Lab3Test {
     driver.manage().window().setSize(new Dimension(945, 1060));
     driver.findElement(By.linkText("Desktops")).click();
     driver.findElement(By.linkText("Mac (1)")).click();
+    try {
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     driver.findElement(By.id("input-sort")).click();
     {
       WebElement dropdown = driver.findElement(By.id("input-sort"));
       dropdown.findElement(By.xpath("//option[. = 'Name (A - Z)']")).click();
+    }
+    try {
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
     }
     driver.findElement(By.cssSelector(".button-group .fa-shopping-cart")).click();
     js.executeScript("window.scrollTo(0,215)");
